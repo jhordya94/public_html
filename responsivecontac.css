@@ -1,0 +1,145 @@
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+
+
+    @media(max-width:767px){
+        .logoimg{
+            
+        width: 135px;
+        height:35px;
+        margin-top: 10px;
+        background-color: transparent;
+        margin-left:-8px; 
+        
+        }
+        footer{
+    height:300px;
+}
+          .social-bar {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	font-size: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+        .contenedorcasa1{
+         height:830px;
+         background-color:transparent;
+         margin-top: 50px;
+        }
+        .tcontac{
+         font-size: 20px;   
+         background-color:transparent;
+        }
+        .pcontac{font-size: 16px;
+        background-color: transparent;}
+        .info{
+            margin-left:2px;
+            font-size: 12px;
+            background-color:transparent;
+        }
+        .formulario{
+            height: 380px;
+            background-color: transparent;
+        }
+        .mensajec{
+            width:30%;
+        } 
+        .mensaje{
+         width:280px;
+        /* background-color:transparent;*/
+        }
+        .enviar{
+         margin-right:-100px;
+        /* background-color:transparent;*/
+        }
+     .container4{
+        background-color: transparent;
+        margin-top: 40px;
+        margin-left: 2px;
+         width:295px;
+       height:420px;
+     
+    }
+    .row1{
+       background-color:transparent;
+       margin-left: 10px;
+       width:290px;
+       height:420px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 15px;
+   }
+   .s1{
+       background-color: transparent;
+       margin-left:-5px;
+   }
+   .s2{
+       background-color:transparent;
+       margin-left:-10px;
+       width:140px;
+   }
+   .s3{
+       background-color: transparent;
+       height: 115px;
+       margin-left:-5px;
+   }
+   .s3img,.s1img, .s2img, .s4img,.s5img{background-color: transparent;}
+   .tercero{
+       background-color: transparent;
+       margin-bottom: 5px;
+       height:115px;
+   }
+   .s4{
+       background-color: transparent;
+       margin-right: 3px;
+       margin-left:-10px;
+       width:140px;
+       height: 115px;
+   }
+   .s5{background-color: transparent;
+      margin-top:-30px;
+      margin-left: -5px;
+      height: 100px;
+      width:145px;
+      
+   }
+   .quinto{
+       margin-top:15px;
+   }
+ 
+   .s6{
+       background-color:transparent;
+       width: 140px;
+       height: 100px;
+        margin-top:-30px;
+        margin-left:-10px;
+   }
+
+    
+    .container3{width:100%;background-color:transparent;}
+        
+    }
+    .s6img{
+     background-color: transparent;
+     width:100%;
+    }
+    
+    .row9{
+        background-color: transparent;
+    }
+    /*.mail, .nombre{background-color: transparent;}*/
+    
+    label{background-color:transparent;}
+    
+  
+    
+    
+    
+    
+    

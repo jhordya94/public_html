@@ -1,0 +1,502 @@
+ /*CSS DOCUMENTO */
+/*=======================================INICIO BODY==========================================*/
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+ h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: #221EB1;
+  }
+  .container {
+    padding: 80px 120px;
+  }
+  .person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+  h1,h2{
+       color: #221EB1;
+  }
+  
+  img {
+height: auto;
+max-width: 100%;
+}
+   /*======================================FIN BODY================================================*/
+
+ 
+   .container2{
+      
+      width:600px;
+      height: 350px;
+      background: red;
+  }
+  
+
+    /*======================================INICIO BARRA DE NAVEGACIÓN============================*/
+  .nav-tabs li a {
+    color: #777;
+  }
+
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+   /* background-color: transparent !important;*/
+    background-color: #fefefe;
+    /*background-color:rgba(211, 211,211, .7);*/
+    border: 0;
+    font-size: 20px !important;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    padding:15px;
+     box-shadow: 0px 0px 6px 0px black;
+  }
+  .navbar-brand{
+     margin-top: -28px; 
+   }
+   
+  .navbar li a, .navbar .navbar-brand { 
+    color: #FFFFFF !important;
+  }
+  
+  .navbar-nav li a{
+      margin-right: 50px;
+      text-shadow: -1px -1px 1px #000;
+      font-weight:bold;
+  }
+  
+  .navbar-nav li a:hover {
+    color: black !important;
+  }
+  .navbar-nav li.active a {
+    color: black !important;
+    background-color: transparent !important;
+    text-shadow: -1px -1px 1px #fff;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+    
+    
+    
+   /*========================================FIN BARRA DE NAVEGACIÓN==============================*/
+ /*==============SOCIAL BAR=============*/
+ 
+  
+  .social-bar {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	font-size: 3.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+        /*color: white;*/
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook1 {
+	color: #3b5998;
+}
+.icon-facebook1:hover{
+       color:white;
+       background:#46639f;
+       text-decoration: none;
+}
+.icon-telegram1{
+  
+   }
+.icon-telegram1:hover{
+    color:#0088cc;
+    background: white;
+    text-decoration: none;
+   }   
+   
+.icon-instagram1 {
+  /*  color:white;*/
+    color:#bc2a8d;
+	/*background:linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);*/
+        border-radius: 1rem;
+}
+.icon-instagram1:hover{
+    color:white;
+    background: linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);
+     text-decoration: none;
+}   
+/*.icon-google1 {
+	color: #d62d20;
+}*/
+
+.icon-twitter1{
+    text-decoration: none;
+}
+.icon-twitter1:hover{
+    text-decoration: none;
+    background: #00aced;
+    color:white;
+}
+
+.icon-youtube1{
+    color:#bb0000 ;
+}
+
+.icon-youtube1:hover {
+	background: white;
+        text-decoration: none;
+         color:#bb0000 ;
+}
+.icon-whatsapp1{
+    color:#00bb2d;
+}
+.icon-whatsapp1:hover{
+       color:white;
+       background:#00bb2d;
+       text-decoration: none;
+}
+
+
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+  
+  
+  
+ 
+  
+  /******FIN SOCIAL BAR******/
+  
+  /*CSS COBERTURA*/
+  .panel-footer{background-color: transparent;}
+  .modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-header, .modal-body {
+    padding: 40px 50px;
+  }
+ 
+  
+  
+  /****** CSS COBERTURA******/
+  #demo1,#demo3{
+   margin-bottom: -300px;
+  }
+ 
+  
+  
+ /****** CSS CONTACTENOS *******/ 
+  
+ 
+  
+  /*****CSS PRECIOS*****/
+  #precios{
+      margin:auto;
+      
+      background-color:silver;
+      width: 100%;
+  }
+  
+  .slideanim{
+      margin-left: 220px;
+  }
+  .container1{
+      width:100%;
+      height:300px;
+      background: red;
+      padding-top: 550px;
+  }
+  
+  
+  
+  
+ 
+  .contenedorcasa{
+      position:relative;
+      display:inline-block;
+      text-align:center;
+    
+     background-color: transparent;
+   }
+  /* .contenedorcasa1{
+       margin-top: 50px;
+      position:relative;
+      display:inline-block;
+      text-align:center;
+   }*/
+   
+   
+   .container4{
+       background-color: transparent;
+       width:1200px;
+       height: 80px;
+       margin: auto;
+       margin-bottom: 55px;
+       margin-top: 25px;
+       
+   } 
+   .tercero{
+       margin-bottom: 20px;
+   }
+   .quinto{
+       margin-top:15px;
+   }
+   .row1{
+       
+       margin-left: 100px;
+   }
+   
+  
+   
+  
+ 
+   
+   
+   /*=====================================INICIO SLIDER==================================*/
+   .carousel-inner img {
+   /* -webkit-filter: grayscale(90%);
+   /* filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+   
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  
+  .carousel .carousel-inner .item img{
+      height:568px;
+  }
+   .carousel-control{
+      
+      padding:25px;
+  }
+  #myCarousel{
+      background: transparent;
+      margin-top:30px;
+      box-shadow: 0px 0px 6px 0px black;
+      
+  }
+    .container3{
+      
+      padding-top: 50px;
+  }
+   
+   /*=============================================FIN SLIDER=================================*/
+   
+   /*===========================================INICIO COBERTURA==============================*/
+    #cobertura{
+    width:100%; 
+    /*background-color: red;*/
+    background-image: url(Img/fon1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-size: cover;
+  }
+  
+  
+  .pcobertura{
+      font-size: 18px;
+      
+  }
+     .col-sm-8{
+    /*   background-color: red;*/
+       width:650px;
+       height:500px;
+       margin-right: 80px;
+   }
+   
+   .cober{
+       padding-top: 40px;
+   }
+   .cobertura1{
+       text-shadow: -1px -1px 1px silver;
+   }
+    .row{
+      background-color: transparent;
+      box-shadow: 0px 0px 6px 3px whitesmoke;
+      width:1200px;
+      height:640px;
+      padding-top: 30px;
+      margin-left:-40px;
+   }
+   /*==============================================FIN COBERTURA=================================*/
+   
+   /*============================================INICIO PLANES===================================*/
+   
+   .col-sm-3{
+        position:relative;
+      display:inline-block;
+      text-align:center;
+     
+   }
+   
+   .texto-centro{
+       position:absolute;
+       top: 60%;
+       left:38%;
+       transform:translate(-40%,-40%);
+       color:white;
+    /* background-color: red;*/
+       
+   }
+   .texto-centro1{
+       position:absolute;
+       top: 60%;
+       left:38%;
+       transform:translate(-40%,-40%);
+       color:white;
+    /* background-color: red;*/
+   }
+   .plan1{
+      font-weight:bold;
+       font-size:26px; 
+   }
+   .plan2{
+        font-weight:bold;
+       font-size:25px; 
+   }
+   .plans{
+       font-size:18px;
+     
+   }
+   
+   .cotizar{
+       margin-top: 40px;
+       margin-left: -15px;
+      /* background-color: red;*/
+      
+   }
+   .container5{
+      /* background-color: red;*/
+        height:600px;
+        margin-top: 50px;
+         width:100%; 
+    background-color: #91d8f7;
+   /* background-image: url(Img/fpl.jpg);*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-size: cover;
+     padding-top: 30px;
+   }
+   .row4{
+      /* background-color: green;*/
+      margin-top: 25px;
+       height:297px;
+       padding-left:40px;
+   }
+ 
+   
+   .btn-xs {
+    padding: 10px 20px;
+    background-color: #221EB1;
+    color: white;
+    border-radius: 5px;
+    transition: .2s;
+   
+   
+  }
+  .btn-xs:hover, .btn-xs:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: black;
+   
+  }
+  .botonp{
+      color:white;
+     outline:none;
+  }
+   /*============================================FIN PLANES========================================*/
+   
+   /*==INICIO CONTACTENOS==*/
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+   
+   /*==FIN CONTACTENOS==*/
+   
+    /*==INICIO SEGURIDAD==*/
+    
+    
+    
+   /*==FIN SEGURIDAD==*/
+   
+   
+   /*==INICIO FOOTER==*/
+      
+   footer {
+      
+      background-color: #221EB1;
+    /*background-color: #2d2d30;*/
+    color: #f5f5f5;
+    padding: 10px;
+    height:200px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+      /*==FIN FOOTER==*/ 
+    
+    
+   /*==INICIO RESPONSIVE==*/
+    @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  @media (max-width: 320px) {
+    .carousel .carousel-inner .item img{
+      width:100%;
+  }
+  }
+   /*==FIN RESPONSIVE==*/

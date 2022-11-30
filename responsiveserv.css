@@ -1,0 +1,151 @@
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+    .logoimg{
+        width: 135px;
+        height:35px;
+    }
+    footer{
+    height:300px;
+}
+    .row6{
+        height: 2150px;
+    }
+    .Ns{
+        margin-left: -10px;
+        width:250px;
+    }
+    
+    .cctv2{
+        margin-left: -50px;
+        margin-top: -150px;
+    }
+    
+    .tcctv{font-size: 20px;}
+    .pcctv{font-size: 16px;}
+    
+    .cctv1{
+        margin-left: -28px;
+        width:300px;
+        height: 200px;
+              }
+   .c1{   
+       background-image: url(Img/camara.png); 
+       background-position: center;
+       background-repeat: no-repeat;
+    }
+    
+    .cctv{display:none;}
+       
+    .c2{
+     
+      background-image: url(Img/soporte.png); 
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+    .c3{
+      background-image: url(Img/radio.png); 
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .row7{
+        margin-top: -180px;
+        height: 680px;
+    }
+    .identidad{
+        padding: 5px;
+        padding-left: 28px;
+    }
+    .tidentidad{
+        padding-left: 28px;
+    }
+    .c4{
+      background-image: url(Img/web.png); 
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .cctv5{
+        background-color: transparent;
+        margin-left: 10px;
+          width:300px;
+        height: 200px;
+    }
+    
+    .container4{
+        background-color: transparent;
+        margin-top: 40px;
+         width:295px;
+       height:420px;
+     
+    }
+    .row1{
+       background-color: transparent;
+       margin-left: 10px;
+       width:290px;
+       height:420px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 15px;
+   }
+   .s1{
+       background-color: transparent;
+       margin-left:-5px;
+   }
+   .s2{
+       background-color: transparent;
+       margin-left:-10px;
+   }
+   .s3{
+       background-color: transparent;
+       height: 115px;
+   }
+   .s3img{background-color: transparent;}
+   .tercero{
+       background-color: transparent;
+       margin-bottom: 5px;
+       height:115px;
+   }
+   .s4{
+       background-color: transparent;
+       margin-right: 3px;
+       width:150px;
+       height: 115px;
+   }
+   .s5{background-color: transparent;
+      margin-top:-30px;
+      height: 100px;
+      
+   }
+   .quinto{
+       margin-top:15px;
+   }
+ 
+   .s6{
+       background-color:transparent;
+       width: 150px;
+       height: 100px;
+        margin-top:-30px;
+   }
+
+  .container7{
+       height:2850px;
+   } 
+   
+ .social-bar {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	font-size: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}   
+    
+    
+    
+}
